@@ -1,0 +1,66 @@
+div.hero-section {
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 28%, rgba(0, 0, 0, 0) 70%),
+        url("../../assets/images/heroBackground.png");
+    background-size: cover;
+    height: 700px;
+    color: #F7F7F7;
+    background-position: top right;
+
+}
+
+div.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 156px;
+}
+
+
+div.seperation-line {
+    color: var(--WHITECOLOR);
+    width: 530px;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+nav.nav-bar {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 24px;
+}
+
+ul.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+li {
+    letter-spacing: 2px;
+}
+
+ul.descriptive-words {
+    margin-top: 56px;
+    margin-bottom: 80px;
+    display: flex;
+    list-style: none;
+    gap: 40px
+}
+
+li.descriptive-li {
+    color: var(--SECONDARYBTNCOLOR);
+}
+
+button.primary-btn {
+    width: 180px;
+    height: 48px;
+    background-color: var(--PRIMARYBTNCOLOR);
+    font-family: inter;
+    border-style: none;
+    color: var(--BTNTEXTCOLOR);
+}
