@@ -1,0 +1,50 @@
+div.services-section {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.cards-section {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+h2.services-h2 {
+    font-weight: 900;
+    padding-bottom: 80px;
+}
+
+p.services-p {
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+}
+
+div.card-image {
+    width: 290px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    color: #F7F7F7;
+    align-items: flex-end;
+    font-weight: 900;
+}
+
+div#airport_card {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 1) 92%), url("../../assets/images/airport.png");
+}
+
+div#weddings_card {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 1) 92%), url("../../assets/images/wedding.png");
+}
+
+div#corporate_card {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 1) 92%), url("../../assets/images/corporate.png");
+}
+
+div#parties_card {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 1) 92%), url("../../assets/images/party.png");
+}
