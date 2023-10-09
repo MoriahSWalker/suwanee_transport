@@ -1,0 +1,76 @@
+section.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--WHITECOLOR);
+}
+
+div.about-divider {
+    border-style: solid;
+    border-width: 0.5px;
+    width: 330px;
+    margin: 10px 0 10px 0
+}
+
+p#experience_p {
+    letter-spacing: 2px;
+    margin-bottom: 48px;
+    font-size: 24px;
+}
+
+p#why_p {
+    font-weight: 900;
+    margin-top: 130px;
+    font-size: 32px;
+}
+
+button {
+    width: 240px;
+    height: 58px;
+    background-color: var(--SECONDARYBTNCOLOR);
+    font-family: inter;
+    border-style: none;
+    color: var(--WHITECOLOR);
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+div.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 300px;
+    height: 270px;
+    line-height: 2;
+    background-color: var(--CARDBGCOLOR);
+    padding: 16px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.45);
+}
+
+div.about-cards-section {
+    gap: 156px;
+    max-width: 1220px;
+    margin: 143px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+
+
+}
+
+p.about-header-p {
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 24px;
+}
+
+p.notice-p {
+    margin: 50px 0 75px 0;
+    color: var(--SECONDARYBTNCOLOR);
+}

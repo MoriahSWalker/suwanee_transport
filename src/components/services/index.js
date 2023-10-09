@@ -8,16 +8,16 @@ const Services = () => {
         <h2 className='services-h2'>THE BEST IN VIP GROUND SERVICES</h2>
         <div className='cards-section'>
             <div className='card-image' id='airport_card'>               
-                <p>Airport Transfer</p>
+                <p className='card-p'>Airport Transfer</p>
             </div>
             <div className='card-image' id='weddings_card'>               
-                <p>Weddings</p>
+                <p className='card-p'>Weddings</p>
             </div>
             <div className='card-image' id='corporate_card'>               
-                <p>Corporate</p>
+                <p className='card-p'>Corporate</p>
             </div>
             <div className='card-image' id='parties_card'>               
-                <p>Parties</p>
+                <p className='card-p'>Parties</p>
             </div>
         </div>
     </div>

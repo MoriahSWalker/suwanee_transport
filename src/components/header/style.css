@@ -3,10 +3,15 @@ div.hero-section {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 28%, rgba(0, 0, 0, 0) 70%),
         url("../../assets/images/heroBackground.png");
     background-size: cover;
-    height: 700px;
+    height: 950px;
     color: #F7F7F7;
     background-position: top right;
 
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 900;
 }
 
 div.hero-content {
@@ -20,11 +25,11 @@ div.hero-content {
 
 div.seperation-line {
     color: var(--WHITECOLOR);
-    width: 530px;
+    width: 950px;
     border-style: solid;
     border-width: 0.5px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 nav.nav-bar {
@@ -45,11 +50,11 @@ li {
 }
 
 ul.descriptive-words {
-    margin-top: 56px;
-    margin-bottom: 80px;
+    margin-top: 96px;
+    margin-bottom: 150px;
     display: flex;
     list-style: none;
-    gap: 40px
+    gap: 230px
 }
 
 li.descriptive-li {
@@ -57,10 +62,13 @@ li.descriptive-li {
 }
 
 button.primary-btn {
-    width: 180px;
-    height: 48px;
+    width: 240px;
+    height: 58px;
     background-color: var(--PRIMARYBTNCOLOR);
     font-family: inter;
     border-style: none;
-    color: var(--BTNTEXTCOLOR);
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
 }

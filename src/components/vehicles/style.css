@@ -1,0 +1,53 @@
+section.vehicles-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets/images/vehiclesSectionBackground.png");
+    background-size: cover;
+    color: var(--WHITECOLOR);
+    padding-top: 70px;
+}
+
+p.header-p {
+    letter-spacing: 2px;
+    margin-bottom: 110px;
+}
+
+p.passenger-word {
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+p.car-make-model {
+    margin: 50px 0 40px 0;
+    font-weight: 600;
+
+
+    letter-spacing: 2px;
+}
+
+p.passenger-number {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+div.seperator {
+    border: solid;
+    width: 56px;
+    border-width: 0.05px;
+    margin: 8px;
+}
+
+div.cards-container {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+div.vehicles-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

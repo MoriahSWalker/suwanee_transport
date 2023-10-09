@@ -1,7 +1,7 @@
 div.services-section {
     margin-left: 40px;
     margin-right: 40px;
-    padding-top: 56px;
+    padding: 70px 0 60px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,18 +9,23 @@ div.services-section {
 
 div.cards-section {
     display: flex;
-    gap: 40px;
-    padding-bottom: 100px;
+    gap: 60px;
+    padding: 100px 0 150px 0;
 }
 
 h2.services-h2 {
     font-weight: 900;
-    padding-bottom: 80px;
+    padding: 70px 0 60px 0;
+    font-size: 32px;
 }
 
 p.services-p {
     letter-spacing: 2px;
     padding-bottom: 40px;
+}
+
+p.card-p {
+    padding-bottom: 16px;
 }
 
 div.card-image {
@@ -31,7 +36,11 @@ div.card-image {
     color: #F7F7F7;
     align-items: flex-end;
     font-weight: 900;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
 }
+
+
 
 div#airport_card {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 1) 92%), url("../../assets/images/airport.png");
