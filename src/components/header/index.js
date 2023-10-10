@@ -9,7 +9,7 @@ const Header = () => {
         <Navbar />
         <div className='hero-content'>
             <h1>SUWANEE TRANSPORT SERVICES</h1>
-            <div className='seperation-line'></div>
+            
             <p>State Of Georgia Certified MCA #9131</p>
 
             <ul className='descriptive-words'>
