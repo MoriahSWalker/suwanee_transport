@@ -9,9 +9,15 @@ div.hero-section {
 
 }
 
+div.nav-div {
+    position: fixed;
+    width: 100%;
+}
+
 h1 {
     font-size: 56px;
     font-weight: 900;
+    padding-top: 200px;
 }
 
 div.hero-content {
@@ -19,7 +25,7 @@ div.hero-content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 156px;
+    margin-top: 0px;
 }
 
 
@@ -32,18 +38,7 @@ div.seperation-line {
     margin-bottom: 16px;
 }
 
-nav.nav-bar {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 24px;
-}
 
-ul.nav-links {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-
-}
 
 li {
     letter-spacing: 2px;
@@ -71,4 +66,17 @@ button.primary-btn {
     font-weight: 700;
     font-size: 20px;
     border-radius: 8px;
+}
+
+button.primary-btn:hover {
+    width: 240px;
+    height: 58px;
+    background-color: var(--WHITECOLOR);
+    font-family: inter;
+    border-style: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
 }

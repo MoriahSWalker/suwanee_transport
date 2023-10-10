@@ -5,7 +5,7 @@ import cadilac from '../../assets/images/cadilac.png'
 
 const Vehicles = () => {
   return (
-    <section className='vehicles-section'>
+    <section className='vehicles-section' id='vehicles'>
         <p className='header-p'>VEHICLES</p>
         <div className='cards-container'> <div className='vehicles-card' id='card_1'>
             <p className='passenger-number'>

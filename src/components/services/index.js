@@ -3,7 +3,7 @@ import "./style.css"
 
 const Services = () => {
   return (
-    <div className='services-section'>
+    <div className='services-section' id='services'>
         <p className='services-p'>SERVICES</p>
         <h2 className='services-h2'>THE BEST IN VIP GROUND SERVICES</h2>
         <div className='cards-section'>

@@ -37,6 +37,22 @@ button {
 
 }
 
+button:hover {
+    width: 240px;
+    height: 58px;
+    background-color: var(--WHITECOLOR);
+    font-family: inter;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--SECONDARYBTNCOLOR);
+    color: var(--SECONDARYBTNCOLOR);
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
 div.about-card {
     display: flex;
     flex-direction: column;
